@@ -53,6 +53,10 @@ Intresting?
 
 - Just a hint here Exported option is available for Services and Broadcast Receivers too. You may check the official docs.
 
+- ContentProvider is not available to use with Realm right now it will be supported in future.
+
+- There are a couple ideas how to use ContentProvider with ORM but there are no available direct option so far - Sugar Object-relational mapping basicly converts incompatible types to compatible ones like for the example we have normal Java classes acting as SQL Tables. 
+
 Wrap up?
 
 - Well that is basicly everything about ContentProviders you can find more on the official page.
